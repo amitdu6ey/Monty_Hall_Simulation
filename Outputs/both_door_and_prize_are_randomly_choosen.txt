@@ -1,0 +1,9 @@
+for Total trials = 0000000010 Probability of winning if we switch our choice is  = 0.9
+for Total trials = 0000000100 Probability of winning if we switch our choice is  = 0.75
+for Total trials = 0000001000 Probability of winning if we switch our choice is  = 0.678
+for Total trials = 0000010000 Probability of winning if we switch our choice is  = 0.6696
+for Total trials = 0000100000 Probability of winning if we switch our choice is  = 0.66756
+for Total trials = 0001000000 Probability of winning if we switch our choice is  = 0.667178
+for Total trials = 0010000000 Probability of winning if we switch our choice is  = 0.666567
+for Total trials = 0100000000 Probability of winning if we switch our choice is  = 0.666632
+for Total trials = 1000000000 Probability of winning if we switch our choice is  = 0.666656

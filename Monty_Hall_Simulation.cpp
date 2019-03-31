@@ -6,7 +6,7 @@
 
 int main(int argc, const char * argv[])
 {
-    freopen("./Outputs/<insert_file_name_here>.txt","w",stdout);
+    freopen("Observations.txt","w",stdout);
     int prize, door, goat, totalTrials;
     double win = 0, loose = 0;
     srand(time(NULL));
@@ -20,6 +20,7 @@ int main(int argc, const char * argv[])
                 door=1;
                 prize=1;
             */
+            
             // Randomly choosing Gate and Prize value
 
             prize = rand()%3;
@@ -33,9 +34,9 @@ int main(int argc, const char * argv[])
                     break;
                 }
             }
-            /*
-             and now we will change our door of Gate.
-            */
+            
+            // and now we will change our door
+            
             for(int i = 0;i < 3;i++){
                 if(i != goat&&i != door){
                     door=i;

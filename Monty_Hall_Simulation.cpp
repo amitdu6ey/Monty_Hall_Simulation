@@ -10,7 +10,8 @@ int main(int argc, const char * argv[])
     int prize, door, goat, totalTrials;
     double win = 0, loose = 0;
     srand(time(NULL));
-    for(totalTrials = 10;totalTrials <= 1000000000;totalTrials *= 10){
+    for(totalTrials = 10;totalTrials <= 1000000000;totalTrials *= 10)
+    {
         win = 0;
         loose = 0;
         for(int i = 0;i < totalTrials;i++){
@@ -28,8 +29,10 @@ int main(int argc, const char * argv[])
 
             //one door is opened now which has Goat behind it.
 
-            for(int i = 0;i < 3;i++){
-                if(i != door&&i != prize){
+            for(int i = 0;i < 3;i++)
+            {
+                if(i != door&&i != prize)
+                {
                     goat=i;
                     break;
                 }
@@ -37,16 +40,20 @@ int main(int argc, const char * argv[])
             
             // and now we will change our door
             
-            for(int i = 0;i < 3;i++){
-                if(i != goat&&i != door){
+            for(int i = 0;i < 3;i++)
+            {
+                if(i != goat&&i != door)
+                {
                     door=i;
                     break;
                 }
             }
-            if(door == prize){
+            if(door == prize)
+            {
                 win += 1;
             }
-            else{
+            else
+            {
                 loose += 1;
             }
         }
